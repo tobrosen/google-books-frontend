@@ -1,5 +1,4 @@
 "use client";
-import useGetBooks from "@/app/hooks/useGetBooks";
 import Book from "./Book/Book";
 import styles from "./books.module.css";
 import { useContext } from "react";
