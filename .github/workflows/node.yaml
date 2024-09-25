@@ -1,9 +1,9 @@
 name: Google Books Frontend CI
 on:
   push:
-    branches: ["main"]
+    branches: ["Main"]
   pull_request:
-    branches: ["main"]
+    branches: ["Main"]
 jobs:
   build:
     runs-on: ubuntu-latest
