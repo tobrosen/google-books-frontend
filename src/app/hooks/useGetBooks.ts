@@ -41,7 +41,7 @@ const useGetBooks = ({query}: Props) => {
   const [books, setBooks] = useState<GoogleBooksAPIResponse | null>(null);
 
   const { data, error } = useGetData<GoogleBooksAPIResponse>(
-    `http://localhost:8000/api/books?name=${query}`,
+    `${process.env.NEXT_PUBLIC_API_ENDPOINT}/api/books?name=${query}`,
     {shouldFetch: !!query}
   );
 
