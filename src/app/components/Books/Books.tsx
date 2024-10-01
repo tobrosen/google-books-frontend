@@ -7,7 +7,6 @@ import { BookContext } from "@/app/providers/BookProvider";
 const Books = () => {
   const { books } = useContext(BookContext);
 
-  console.log(books?.items);
   if (!books) return <div>No result</div>;
   return (
     <div className={styles.container}>
