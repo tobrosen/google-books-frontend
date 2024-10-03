@@ -12,3 +12,8 @@
     display:flex;
     gap:1rem;
 }
+
+.user-actions h2:hover{
+    cursor: pointer;
+    color:#E84613
+}
