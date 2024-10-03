@@ -1,3 +1,5 @@
+"use client";
+
 import { createContext, ReactNode, useEffect, useMemo, useState } from "react";
 import useGetBooks, { GoogleBooksAPIResponse } from "../hooks/useGetBooks";
 import useDebounce from "../hooks/useDebounce";

@@ -1,5 +1,3 @@
-"use client";
-
 import Books from "./components/Books/Books";
 import Heading from "./components/Heading/Heading";
 import MainContainer from "./components/MainContainer/MainContainer";

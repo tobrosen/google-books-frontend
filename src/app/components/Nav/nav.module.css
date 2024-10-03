@@ -1,0 +1,19 @@
+.nav{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    padding: 2rem;
+    background-color: #2F2A29;
+}
+
+.user-actions{
+    display:flex;
+    gap:1rem;
+}
+
+.user-actions h2:hover{
+    cursor: pointer;
+    color:#E84613
+}

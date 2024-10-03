@@ -1,3 +1,4 @@
+"use client";
 import { BookContext } from "@/app/providers/BookProvider";
 import { useContext } from "react";
 
